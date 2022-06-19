@@ -34,9 +34,7 @@ Configure the timer behavior.
 Configure how the timer itself looks like.
 
 `Font family`: Font family of timer (uses Google Fonts).
-
 `Text color`: Color of the timer text.
-
 `Font size`: Font size in pixels.
 
 `Font weight`: Font weight (`Light (300)`, `Normal (400)` or `(Bold) 700)`.
