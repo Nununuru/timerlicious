@@ -1,0 +1,299 @@
+{
+  "textFont": {
+  	"type": "googleFont",    
+    "label": "Font family",
+    "value": "Roboto",
+    "group": "Timer text styles"
+  },
+  "textColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "#444444",
+    "group": "Timer text styles"
+  },
+  "textSize": {
+    "type": "number",
+    "label": "Text font size",
+    "value": 80,
+    "step": 1,
+    "group": "Timer text styles"
+  },
+  "textWeight": {
+	"type": "dropdown",
+  	"label": "Text weight",
+    "value": "400",
+    "options": {
+      "300": "Light (300)",
+      "400": "Normal (400)",
+      "700": "Thicc (700)"
+    },
+    "group": "Timer text styles"
+  },
+  "textAlign": {
+    "type": "dropdown",
+    "label": "Text alignment",
+    "value": "center",
+    "options": {
+      "left": "left",
+      "center": "center",
+      "right": "right"
+    },
+    "group": "Timer text styles"
+  },
+  "textShadowRightShift": {
+    "type": "number",
+    "label": "Text shadow right shift",
+    "value": 2,
+    "step": 1,
+    "group": "Timer text styles"
+  },
+  "textShadowDownShift": {
+    "type": "number",
+    "label": "Text shadow down shift",
+    "value": 2,
+    "step": 1,
+    "group": "Timer text styles"
+  },
+  "textShadowBlur": {
+    "type": "number",
+    "label": "Text shadow blur (px)",
+    "value": 2,
+    "step": 1,
+    "group": "Timer text styles"
+  },
+  "textShadowColor": {
+    "type": "colorpicker",
+    "label": "Text shadow color",
+    "value": "#CE5937",
+    "group": "Timer text styles"
+  },
+  "enableEventText": {
+    "type": "dropdown",
+    "label": "Enable text on events",
+    "value": "true",
+    "options": {
+      "true": "Enable",
+      "false": "Disable"
+    },
+    "group": "Event text"
+  },
+  "eventText": {
+    "type": "text",
+    "label": "Text to display when event happened",
+    "value": "[viewer] has increased timer by [amount] seconds",
+    "group": "Event text"
+  },
+  "eventTextDuration": {
+    "type": "number",
+    "label": "Duration of event texts (ms)",
+    "value": 2000,
+    "step": 1,
+    "group": "Event text"
+  },
+  "eventTextFont": {
+  	"type": "googleFont",    
+    "label": "Font family",
+    "value": "Roboto Condensed",
+    "group": "Event text styles"
+  },
+  "eventTextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "#666666",
+    "group": "Event text styles"
+  },
+  "eventTextSize": {
+    "type": "number",
+    "label": "Text font size",
+    "value": 60,
+    "step": 1,
+    "group":"Event text styles"
+  },
+  "eventTextAlign": {
+    "type": "dropdown",
+    "label": "Text alignment",
+    "value": "center",
+    "options": {
+      "left": "left",
+      "center": "center",
+      "right": "right"
+    },
+    "group": "Event text styles"
+  },
+  "eventTextShadowRightShift": {
+    "type": "number",
+    "label": "Text shadow right shift",
+    "value": 2,
+    "step": 1,
+    "group": "Event text styles"
+  },
+  "eventTextShadowDownShift": {
+    "type": "number",
+    "label": "Text shadow down shift",
+    "value": 2,
+    "step": 1,
+    "group": "Event text styles"
+  },
+  "eventTextShadowBlur": {
+    "type": "number",
+    "label": "Text shadow blur (in px)",
+    "value": 2,
+    "step": 1,
+    "group": "Event text styles"
+  },
+  "eventTextShadowColor": {
+    "type": "colorpicker",
+    "label": "Text shadow color",
+    "value": "#CE5937",
+    "group": "Event text styles"
+  },
+  "enableCommands": {
+    "type": "dropdown",
+    "label": "Enable commands",
+    "value": "true",
+    "options": {
+      "true": "Enable",
+      "false": "Disable"
+    },
+    "group": "Command settings"
+  },
+  "commandWord": {
+    "type": "text",
+    "label": "Command word (case-insensitive)",
+    "value": "!timer",
+    "group": "Command settings"
+  },
+  "startTime": {
+	"type": "number",
+	"label": "Default duration to start with (seconds)",
+	"value": 21600,
+    "min": 1,
+    "step": 1,
+    "group": "Timer settings"
+  },
+  "enableMaxTime": {
+    "type": "dropdown",
+	"label": "Enable a max duration",
+    "value": "false",
+    "options": {
+      "true": "Enable",
+      "false": "Disable"
+    },
+    "group": "Timer settings"
+  },
+  "maxTime": {
+	"type": "number",
+	"label": "Maximum duration (seconds)",
+	"value": 86400,
+    "min": 0,
+    "max": 356400,
+    "step": 1,
+    "group": "Timer settings"
+  },
+  "followerEnabled": {
+	"type": "dropdown",
+	"label": "Enable follow",
+    "value": "true",
+    "options": {
+      "true": "Enable",
+      "false": "Disable"
+    },
+    "group": "Event settings"
+  },
+  "followerIncrease": {
+	"type": "number",
+	"label": "Seconds per follow",
+    "value": 30,
+    "step": 1,
+    "group": "Event settings"
+  },
+  "subEnabled": {
+	"type": "dropdown",
+	"label": "Enable subscription",
+    "value": "true",
+    "options": {
+      "true": "Enable",
+      "false": "Disable"
+    },
+    "group": "Event settings"
+  },
+  "subIncrease": {
+	"type": "number",
+	"label": "Seconds per tier 1 sub",
+    "value": 180,
+    "step": 1,
+    "group": "Event settings"
+  },
+  "sub2Increase": {
+	"type": "number",
+	"label": "Seconds per tier 2 sub",
+    "value": 180,
+    "step": 1,
+    "group": "Event settings"
+  },
+  "sub3Increase": {
+	"type": "number",
+	"label": "Seconds per tier 3 sub",
+    "value": 180,
+    "step": 1,
+    "group": "Event settings"
+  },
+  "cheerEnabled": {
+	"type": "dropdown",
+	"label": "Enable cheers",
+    "value": "true",
+    "options": {
+      "true": "Enable",
+      "false": "Disable"
+    },
+    "group": "Event settings"
+  },
+  "cheerIncrease": {
+	"type": "number",
+	"label": "Seconds per bit",
+    "value": 1,
+    "step": 1,
+    "group": "Event settings"
+  },
+  "donoEnabled": {
+	"type": "dropdown",
+	"label": "Enable donation",
+    "value": "true",
+    "options": {
+      "true": "Enable",
+      "false": "Disable"
+    },
+    "group": "Event settings"
+  },
+  "donoIncrease": {
+	"type": "number",
+	"label": "Seconds",
+    "value": 60,
+    "step": 1,
+    "group": "Event settings"
+  },
+  "raidEnabled": {
+	"type": "dropdown",
+	"label": "Enable raid",
+    "value": "true",
+    "options": {
+      "true": "Enable",
+      "false": "Disable"
+    },
+    "group": "Event settings"
+  },
+  "raidIncrease": {
+	"type": "number",
+	"label": "Seconds per raider",
+    "value": 1,
+    "step": 1,
+    "group": "Event settings"
+  },
+  "minRaidAmount": {
+	"type": "number",
+	"label": "Min amount of raiders",
+    "value": 0,
+    "step": 1,
+    "group": "Event settings"
+  }
+}
