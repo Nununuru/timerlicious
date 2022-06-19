@@ -34,13 +34,21 @@ Configure the timer behavior.
 Configure how the timer itself looks like.
 
 `Font family`: Font family of timer (uses Google Fonts).
+
 `Text color`: Color of the timer text.
+
 `Font size`: Font size in pixels.
+
 `Font weight`: Font weight (`Light (300)`, `Normal (400)` or `(Bold) 700)`.
+
 `Text alignment`: Alignment inside the widget box (`left`, `center` or `right`).
+
 `Text shadow right shift`: Text shadow shift on the x achsis in pixels (use negative values to go to the left).
+
 `Text shadow down shift`: Text shadow shift on the y achsis in pixels (use negative values to go up).
+
 `Text shadow blur (px)`: Text shadow blur in pixels.
+
 `Text shadow color`: Color of text shadow
 
 ### `Event text`
